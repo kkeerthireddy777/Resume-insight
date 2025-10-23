@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple tokens */
+:root {
+  --brand: #0ea5a4;
+  --bg: #ffffff;
+  --muted: #6b7280;
+}
+
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --muted: #9ca3af;
+}
+body {
+  background: var(--bg);
+}
